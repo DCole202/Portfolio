@@ -1,0 +1,83 @@
+*{
+    margin: 3px;
+}
+body{
+    background-image: url("imgs/cherryblossom.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fbox{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fbox2{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.fboxi {
+   width: 200px;
+}
+.head{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    min-width: 50%;
+    background-color: black;
+    border: solid 3px pink
+}
+.hero{
+    min-height: 250px;
+    min-width: 55%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px pink;
+}
+.mecmt{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+.content{
+    min-height: 250px;
+    min-width: 35%;
+    background-color: black;
+    border: solid 3px pink;
+}
+.wh {
+    color: white;
+}
+.wh h3{
+    font-size: 25px;
+}
+.sb{
+    min-height: 650px;
+    min-width: 20%;
+    background-color: black;
+    border: solid 3px pink;    
+}
+.footbox{
+    color: white;
+    min-height: 165px;
+    min-width: 100%;
+    background-color: black;
+    border: solid 3px pink;
+}
+.htxt{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.goals {
+    color: white;
+}
+.goals h3{
+    font-size: 25px;
+}
