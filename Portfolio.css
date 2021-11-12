@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+}
+body{
+    background-image: url("imgs/cherryblossom.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fbox{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ul {
+    font-size: 35px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("imgs/spinningCB.gif");
+    background-color: black;
+}
+
+li {
+    float: inline-end;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: pink;
+}
+
+.fbox2{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fboxi {
+   width: 200px;
+}
+.head{
+    min-height: 150px;
+    min-width: 100%;
+    background-color: #333;
+    border: solid 3px pink;
+}
+.hero{
+    display: flex;
+    min-height: 250px;
+    min-width: 55%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 3px pink;
+}
+.abt{
+    color: white;
+}
+.content{
+    min-height: 250px;
+    min-width: 35%;
+    background-image: url(imgs/bobmakihara.jpg);
+    background-size: cover;
+    background-color: black;
+    border: solid 3px pink;
+}
+.cpix1{
+    width: 100%;
+}
+.sb{
+    min-height: 650px;
+    min-width: 20%;
+    background-color: black;
+    border: solid 2px pink;    
+}
+.footbox{
+    color: white;
+    min-height: 165px;
+    min-width: 100%;
+    background-color: black;
+    border: solid 2px pink;
+}
+.abt{
+    margin: 3px;
+    position: relative;
+    text-align: center;
+}
+.abt li{
+    font-size: 20px;
+}
+.rps {
+    margin: 10px;
+}
+.rps p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.rps img {
+    height: 125px;
+    border-style: dotted;
+    border-color: pink;
+}
